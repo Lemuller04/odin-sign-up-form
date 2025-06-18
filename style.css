@@ -129,3 +129,22 @@ form>button {
 form+p a {
     color: #596D48;
 }
+
+input {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid royalblue;
+}
+
+:user-valid {
+    border: 2px solid green;
+}
+
+:user-invalid {
+    border: 2px solid red;
+}
